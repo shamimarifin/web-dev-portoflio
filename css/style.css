@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+
+}
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+
+/* Shared Style */
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.btn-primary{
+    background-color: #FD6E0A;
+    border: none;
+    outline: none;
+    padding: 15px ;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    
+}
+
+.mr{
+    margin-right: 20px;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+p{
+    line-height: 25px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Navbar Style */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #474747;
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.4s;
+}
+
+nav ul li a:hover{
+    color: #FD6E0A;
+}
+
+main section{
+    margin-top: 130px;
+}
+
+/* Header CSS */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    padding-top: 30px;
+}
+
+/* Banner CSS */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+    align-items: center;
+}
+
+.banner-content{
+    width: 585px;
+}
+
+.banner-profile-pic{
+    width: 584px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.banner-title{
+    font-size: 85px;
+}
+
+.banner-description{
+    color: #474747;
+    margin: 30px 0px;
+}
+
+
+/* About Section CSS */
+.about-section{
+    margin: 100px 0px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-info{
+    background-color: #ffffff;
+    padding: 20px 50px;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.section-description{
+    color: #474747;
+    margin: 30px 0px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-item p:nth-child(2){
+    font-weight: bold;
+}
+
+/* Skill Section CSS */
+
+
+.skill-items{
+    display: flex;
+    gap: 24px;
+}
+
+
+.skill-item{
+    text-align: left;
+    padding: 15px 35px;
+    background-color: #ffffff;
+    box-shadow: 20px 20px 20px 20px #f9f9f9;
+    border-radius: 5px;
+}
+
+
+.skill-item h3{
+    margin: 20px 0px;
+}
+
+/* Expertise Style */
+.expertises-container{
+    display: flex;
+    gap: 25px;
+    margin: 80px 0px 0px 0px;
+}
